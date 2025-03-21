@@ -1,0 +1,189 @@
+/* container_1 */
+
+.container_1{
+    background-color: #041c44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    font-family: "SeekSans Fallback", Arial, Tahoma, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    padding: 20px;
+}
+.search-container label {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+.search-container input{
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+}
+
+.search-container select {
+    padding: 15px;
+    font-size: 16px;
+    color: #5A6881;
+    border-radius: 8px;
+    border: none;
+    width: 280px;
+}
+
+.search-container button {
+    background-color: #ff007a;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-top: 22px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.more-options {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* container_2 */
+
+.container_2 {
+    font-family: "SeekSans Fallback", Arial, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 0;
+}
+
+.container-signin {
+    background: #f1f3f5;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+}
+.signin-button {
+    padding: 12px 60px;
+    border-radius: 6px;
+    border: 2.5px solid #2e3849;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 80px;
+}
+.signin-btn:hover {
+    background: #ddd;
+}
+.register-button {
+    color: #2e3849;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.description {
+    margin-top: 15px;
+    color: #2e3849;
+}
+
+/* container_3 */
+.box_3 {
+    font-family: "SeekSans Fallback", Arial, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_3 {
+    display: flex;
+    gap: 20px;
+    width: 85%;
+}
+.left-box {
+    background-color: #E5007D;
+    height: 300px;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.right-box {
+    background-color: #EEF0F6;
+    height: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.btn-community , .btn-hire {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-light {
+    background-color: #EEF0F6;
+    color: black;
+}
+.btn-dark {
+    background-color: #E5007D;
+    color: rgb(255, 255, 255);
+}
+
+/* container_4 */
+.container_4 {
+    font-family: "SeekSans Fallback", Arial, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.quick-search {
+    width: 85%;
+}
+
+
+.quick-search p {
+    font-size: 16px;
+    color: #2e3849;
+}
+
+.category {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #2e3849;
+}
+
+.quick-search a {
+    text-decoration: underline;
+    color: #2a6881;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.quick-search div {
+    margin-bottom: 10px;
+}
